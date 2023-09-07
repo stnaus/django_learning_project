@@ -9,6 +9,7 @@ class PublishedManager(models.Manager):
     def get_queryset(self) -> QuerySet:
         return super().get_queryset()\
                         .filter(status=Post.Status.PUBLISHED)
+    
 # Create your models here.
 class Post(models.Model):
 
