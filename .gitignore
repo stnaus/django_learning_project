@@ -1,8 +1,28 @@
-db.sqlite3
 mysite_data.json
 
+# Python
+*.pyc
+*~
+__pycache__
+
+# Env
+.env
+myenv/
+venv/
+
+# Database
+db.sqlite3
+
+# Static folder at project root
+/static/
+
+# Windows
+Thumbs.db*
+ehthumbs*.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio
 .vscode/
-
-__pycache__/
-
-migrations/
+.history/
+*.code-workspace
